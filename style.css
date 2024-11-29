@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+}
+
+.video-container {
+    position: relative;
+    width: 100%;
+    height: auto;
+  }
+
+  body{
+    background-color: black;
+  }
+
+  .border{
+    width: 100%;
+    height: 25px;
+    background-color: black;
+    position: absolute;
+    top: 0;
+  }
+  
+  #myVideo {
+    width: 99%;
+    height: 33.5vw;
+    object-fit: cover;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+  }
+  
+  .text {
+    background-color: black;
+    color: white;
+    font-size: 7vw;
+    border-bottom: 5px solid black;
+  }
+
+  .probel{
+    border-top: 18px solid;
+    border-bottom: 20px solid black;
+  }
+  .p1{
+    width: 37%;
+  }
+  .p2{
+    width: 21%;
+  }
+
+  .p3{
+    width: 32%;
+  }
+
+  .p4{
+    width: 61%;
+  }
